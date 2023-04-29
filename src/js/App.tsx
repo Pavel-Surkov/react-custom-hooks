@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Home from './components/Home';
+import Hover from './hookComponents/Hover';
 
 const App: React.FC = () => (
 	<React.StrictMode>
@@ -9,10 +10,9 @@ const App: React.FC = () => (
 			<div className="app">
 				<Header />
 				<Routes>
-					<Route path="/" element={<div>Home Content</div>} />
-					<Route path="/about" element={<div>About Content</div>} />
+					<Route path="/" element={<Home />} />
+					<Route path="/hover" element={<Hover />} />
 				</Routes>
-				<Footer />
 			</div>
 		</Router>
 	</React.StrictMode>

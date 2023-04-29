@@ -1,0 +1,16 @@
+.hover {
+	&-page {
+		min-height: calc(100vh - 50px);
+		display: grid;
+		place-items: center;
+	}
+	&-item {
+		font-size: 3rem;
+		color: $black;
+		cursor: pointer;
+		&.hovered {
+			color: $white;
+			background: $black;
+		}
+	}
+}

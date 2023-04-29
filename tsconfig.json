@@ -5,7 +5,6 @@
 		"module": "commonjs",
 		"checkJs": true,
 		"strict": true,
-		"watch": true,
 		"sourceMap": true,
 		"noImplicitAny": false,
 		"jsx": "react",
