@@ -8,6 +8,7 @@ const Header: React.FC = () => (
 				<Link to="/">Home</Link>
 				<Link to="/hover">Hover</Link>
 				<Link to="/keypress">KeyPress</Link>
+				<Link to="/fetch">Fetch</Link>
 			</div>
 		</div>
 	</header>

@@ -1,0 +1,19 @@
+.fetch {
+	&-wrapper {
+		min-height: calc(100vh - 50px);
+		@include flex(column, center, center);
+		padding-bottom: 80px;
+	}
+	&-btn {
+		padding: 20px 40px;
+		border: 2px solid $black;
+		font-size: 24px;
+		&:hover {
+			background: $black;
+			color: $white;
+		}
+		&:active {
+			opacity: 0.6;
+		}
+	}
+}
