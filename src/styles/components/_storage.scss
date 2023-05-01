@@ -1,0 +1,28 @@
+.storage {
+	&-page {
+		min-height: calc(100vh - 50px);
+		@include flex(column, center, center);
+		padding-bottom: 80px;
+		& input {
+			padding: 10px 12px;
+			font-size: 2.4rem;
+			border-radius: 10px;
+			border: 2px solid $black;
+			&::placeholder {
+				font-size: 2.4rem;
+			}
+		}
+		& p {
+			&:first-child {
+				font-size: 2rem;
+				margin: 0;
+				margin-bottom: 40px;
+			}
+			&:last-child {
+				font-size: 2rem;
+				margin: 0;
+				margin-top: 40px;
+			}
+		}
+	}
+}

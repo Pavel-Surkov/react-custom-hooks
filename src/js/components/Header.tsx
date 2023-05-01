@@ -6,9 +6,10 @@ const Header: React.FC = () => (
 		<div className="container">
 			<div className="header-wrapper">
 				<Link to="/">Home</Link>
-				<Link to="/hover">Hover</Link>
-				<Link to="/keypress">KeyPress</Link>
-				<Link to="/fetch">Fetch</Link>
+				<Link to="/useHover">Hover</Link>
+				<Link to="/useKeyPress">KeyPress</Link>
+				<Link to="/useFetch">Fetch</Link>
+				<Link to="/useLocalStorage">LocalStorage</Link>
 			</div>
 		</div>
 	</header>

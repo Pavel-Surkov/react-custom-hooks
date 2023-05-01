@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Hover from './hookComponents/Hover';
 import KeyPress from './hookComponents/KeyPress';
 import Fetch from './hookComponents/Fetch';
+import LocalStorage from './hookComponents/LocalStorage';
 
 const App: React.FC = () => (
 	<React.StrictMode>
@@ -13,9 +14,10 @@ const App: React.FC = () => (
 				<Header />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/hover" element={<Hover />} />
-					<Route path="/keypress" element={<KeyPress />} />
-					<Route path="/fetch" element={<Fetch />} />
+					<Route path="/useHover" element={<Hover />} />
+					<Route path="/useKeyPress" element={<KeyPress />} />
+					<Route path="/useFetch" element={<Fetch />} />
+					<Route path="/useLocalStorage" element={<LocalStorage />} />
 				</Routes>
 			</div>
 		</Router>
